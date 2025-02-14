@@ -22,7 +22,7 @@ const getSum = () => {
     table.appendChild(newRow);
 
     const ansParagraph = document.getElementById('ans');
-    ansParagraph.textContent = Total Price: Rs ${totalPrice};
+    ansParagraph.textContent = `Total Price: Rs ${totalPrice}`;
 };
 
 getSumBtn.addEventListener("click", getSum);
