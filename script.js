@@ -13,7 +13,7 @@ const getSum = () => {
     const newRow = document.createElement('tr');
     const totalCell = document.createElement('td');
     totalCell.colSpan = 2; 
-    totalCell.textContent = Total: Rs ${totalPrice}; 
+    totalCell.textContent = `Total: Rs ${totalPrice}`; 
 
     // Append the total cell to the new row
     newRow.appendChild(totalCell);
