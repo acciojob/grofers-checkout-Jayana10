@@ -1,7 +1,7 @@
 const getSumBtn = document.getElementById("getSumBtn");
 
 const getSum = () => {
-    const priceElements = document.querySelectorAll('.price');
+    const priceElements = document.querySelectorAll(".price");
     let totalPrice = 0;
 
     priceElements.forEach(function(priceElement) {
